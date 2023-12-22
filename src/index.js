@@ -6,7 +6,7 @@ const app = express();
 const port = 8080;
 
 routes.forEach(route => {
-    app.use(route.source, createProxyMiddleware(route.proxy));
+    app.use(route.source, createProxyMiddleware(route.proxyOptions));
 }),
 
 app.listen(port, () => {

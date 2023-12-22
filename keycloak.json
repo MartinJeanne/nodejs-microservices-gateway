@@ -1,0 +1,10 @@
+{
+    "bearer-only": true,
+    "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs2rjWw0B0O6xoGJEV8OoXqLhNIo1dLaqjOktF5DA5fbVHqOnShqbrtieBs5Fw2n2/4w+M65CT9xTTuWLckpOpTWMOss49WbWBe9YbVI+CM65u/LZqEluC+2pGkp2DXLajcMsechxTyHsOYuWHKkiZkVKVvRiE5O2Zdh3J6TNsBdtAWykD4qzRdp3VWhg4dWl7GlQD+AQ7m6W8ATsUCaaYS2MJt7V2leqJ50BT/QdRLN03b8iBXJuhHbJnXUiNBPa7Z3Bjv1cflT/w18Y53YHbbri4FupBLJWA/BKOaOIyvdKcGn59vWUUYjBkij79BLMU0a1as2IXKoeD3/WUqn34wIDAQAB",
+    "realm": "e-commerce",
+    "auth-server-url": "http://localhost:8080/",
+    "ssl-required": "external",
+    "resource": "front",
+    "public-client": true,
+    "confidential-port": 0
+}

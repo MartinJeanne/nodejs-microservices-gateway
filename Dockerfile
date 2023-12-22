@@ -6,6 +6,7 @@ COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
 
 # Code
+COPY keycloak.json ./
 COPY src src
 
 # Run the bot

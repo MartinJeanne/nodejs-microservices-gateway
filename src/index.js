@@ -7,6 +7,7 @@ const app = express();
 const port = 4000;
 
 const keycloak = new Keycloak({});
+
 app.use(keycloak.middleware());
 
 app.get('/public', (req, res) => {
@@ -18,7 +19,10 @@ app.get('/secured', keycloak.protect('realm:admin'), (req, res) => {
 });
 
 routes.forEach(route => {
-    app.use(route.source, createProxyMiddleware(route.proxyOptions));
+    app.use(route.url, keycloak.protect('realm:admin'), function (req, res, next) {
+        next();
+    });
+    app.use(route.url, createProxyMiddleware(route.proxyOptions));
 });
 
 app.listen(port, () => {

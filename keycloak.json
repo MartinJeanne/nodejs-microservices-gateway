@@ -1,10 +1,10 @@
 {
     "bearer-only": true,
-    "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs2rjWw0B0O6xoGJEV8OoXqLhNIo1dLaqjOktF5DA5fbVHqOnShqbrtieBs5Fw2n2/4w+M65CT9xTTuWLckpOpTWMOss49WbWBe9YbVI+CM65u/LZqEluC+2pGkp2DXLajcMsechxTyHsOYuWHKkiZkVKVvRiE5O2Zdh3J6TNsBdtAWykD4qzRdp3VWhg4dWl7GlQD+AQ7m6W8ATsUCaaYS2MJt7V2leqJ50BT/QdRLN03b8iBXJuhHbJnXUiNBPa7Z3Bjv1cflT/w18Y53YHbbri4FupBLJWA/BKOaOIyvdKcGn59vWUUYjBkij79BLMU0a1as2IXKoeD3/WUqn34wIDAQAB",
+    "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweyLQqIDZmubG/EU637wUxMEh9s0nEZwKBN8J10xvAYYJ9rFiapH0hKTQVk9dghoyUr9+z7lVe80cLEAa/NydD+VlY3um6u9USHeZnZkljRoOoicmrEzj8Fz6HDYGcZQ1F9mOqvTGdwD9CR8Mopc3+5l7CcKuaDREb3e1nnG3FFvEJ7CY6S9gtZmo+1A4knU+8tEQ2344b8daxSK4XcyVrpnBMOkqqa9zKlgjhY8x5HpMRTWpXtTKWZ8MzAXVGtNgJdKq00DiCdJMJMR122T/x6McvwBPe/GMCv25OQERxWEXmNUO1RatSfGaxIJphtSj3ntptm2RFa/cwVVNeVP4QIDAQAB",
     "realm": "e-commerce",
     "auth-server-url": "http://localhost:8080/",
     "ssl-required": "external",
-    "resource": "front",
+    "resource": "client",
     "public-client": true,
     "confidential-port": 0
 }
